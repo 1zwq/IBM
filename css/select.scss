@@ -1,0 +1,30 @@
+.select-ibm{
+	width: 100%;
+	p{
+		font-size:15px;
+		font-weight:bold;
+		color: #464646;
+	}
+	ul{
+		li{
+			width:260px;
+			height: 42px;
+			margin-top:10px;
+
+			a{
+				color:#5a5a5a;
+				font-size: 15px;
+				margin-left:20px;
+				line-height:40px;
+			}
+			&:hover{
+			background: black;
+
+			}
+			&:hover a{
+					color:#fff;
+				}
+		}
+		
+	}
+}
