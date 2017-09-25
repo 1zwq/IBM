@@ -678,7 +678,7 @@ $font:"iconfont";
 			height: 44px;
 			border:1px solid black;
 			margin-bottom: 20px;
-			border-top:none;
+			/*border-top:none;*/
 			p{
 				line-height: 40px;
 				padding-left:19px;
@@ -707,6 +707,7 @@ $font:"iconfont";
 				position:absolute;
 				bottom:45px;
 				right:0;
+				display: none;
 				iframe{
 					margin-right:5px;
 					width:100%;
